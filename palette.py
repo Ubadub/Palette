@@ -26,8 +26,10 @@ def main():
 
 	pixels = []
 	for i in range(8):
+		color = tuple(cluster_centers[i])
+		print("Color #{}: {}".format(i+1, color))
 		for j in range(PALETTE_WIDTH//8 * PALETTE_HEIGHT):
-			pixels.append(tuple(cluster_centers[i]))
+			pixels.append(color)
 
 	img = Image.new('RGB',(PALETTE_HEIGHT,PALETTE_WIDTH))
 	img.putdata(pixels) 
