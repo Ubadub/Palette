@@ -1,5 +1,5 @@
 # Palette
-A Python utility to create color palettes based off of an image. Uses k-means clustering to generate eight different RGB shades based off of the predominant colors of the source image.
+A Python utility to create color palettes based off of an image. Uses k-means clustering to generate an RGB shades palette based off of the predominant colors of the source image. User can customize the number of colors in the generated palette.
 
 Tested for Python 3.7, but should work for Python 3.2+
 
